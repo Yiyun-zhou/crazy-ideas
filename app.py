@@ -15,7 +15,6 @@ def init_db():
 
 # 初始化 OpenAI
 client = os.getenv('OPENAI_API_KEY')
-#openai.api_key = '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'  # 替换为你的 API Key
 
 # 添加食材
 @app.route('/ingredients', methods=['POST'])
